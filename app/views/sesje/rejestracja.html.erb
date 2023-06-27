@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zakład Pogrzebowy - Rejestracja</title>
+</head>
+<body>
+  <h1>Rejestracja</h1>
+  <form action="/sesje/rejestracja" method="post">
+    <label for="nazwa_uzytkownika">Nazwa użytkownika:</label>
+    <input type="text" id="nazwa_uzytkownika" name="nazwa_uzytkownika" required>
+
+    <label for="haslo">Hasło:</label>
+    <input type="password" id="haslo" name="haslo" required>
+
+    <label for="powtorz_haslo">Powtórz hasło:</label>
+    <input type="password" id="powtorz_haslo" name="powtorz_haslo" required>
+
+    <button type="submit">Zarejestruj się</button>
+  </form>
+</body>
+</html>
