@@ -387,3 +387,327 @@ Processing by SesjeController#rejestracja as HTML
 Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 2868)
 
 
+Started GET "/" for 127.0.0.1 at 2023-06-27 03:56:38 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StronyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering strony/index.html.erb within layouts/application
+  Rendered strony/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 461)
+  Rendered layout layouts/application.html.erb (Duration: 96.5ms | Allocations: 35476)
+Completed 200 OK in 162ms (Views: 104.8ms | ActiveRecord: 0.0ms | Allocations: 42167)
+
+
+Started GET "/logowanie" for 127.0.0.1 at 2023-06-27 03:56:40 +0200
+Processing by SesjeController#logowanie as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/logowanie.html.erb within layouts/application
+  Rendered sesje/logowanie.html.erb within layouts/application (Duration: 0.8ms | Allocations: 140)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 2837)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 3637)
+
+
+Started POST "/sesje/logowanie" for 127.0.0.1 at 2023-06-27 03:57:30 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/sesje/logowanie"):
+  
+Started GET "/logowanie" for 127.0.0.1 at 2023-06-27 03:57:30 +0200
+Processing by SesjeController#logowanie as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/logowanie.html.erb within layouts/application
+  Rendered sesje/logowanie.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2572)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 2873)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-27 04:07:58 +0200
+Processing by StronyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering strony/index.html.erb within layouts/application
+  Rendered strony/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 2384)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 2641)
+
+
+Started GET "/logowanie" for 127.0.0.1 at 2023-06-27 04:08:00 +0200
+Processing by SesjeController#logowanie as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/logowanie.html.erb within layouts/application
+  Rendered sesje/logowanie.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2390)
+Completed 200 OK in 8ms (Views: 7.6ms | Allocations: 2648)
+
+
+Started POST "/sesje/logowanie" for 127.0.0.1 at 2023-06-27 04:08:10 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/sesje/logowanie"):
+  
+Started GET "/logowanie" for 127.0.0.1 at 2023-06-27 04:08:11 +0200
+Processing by SesjeController#logowanie as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/logowanie.html.erb within layouts/application
+  Rendered sesje/logowanie.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2418)
+Completed 200 OK in 8ms (Views: 7.7ms | Allocations: 2676)
+
+
+Started GET "/logowanie" for 127.0.0.1 at 2023-06-27 04:13:20 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SesjeController#logowanie as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/logowanie.html.erb within layouts/application
+  Rendered sesje/logowanie.html.erb within layouts/application (Duration: 1.8ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 110.9ms | Allocations: 35332)
+Completed 200 OK in 128ms (Views: 115.8ms | ActiveRecord: 0.0ms | Allocations: 39518)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-27 04:13:22 +0200
+Processing by StronyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering strony/index.html.erb within layouts/application
+  Rendered strony/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 139)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 2830)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 3624)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-27 04:13:24 +0200
+Processing by StronyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering strony/index.html.erb within layouts/application
+  Rendered strony/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 2400)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 2683)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-27 04:13:55 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StronyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering strony/index.html.erb within layouts/application
+  Rendered strony/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 356)
+  Rendered layout layouts/application.html.erb (Duration: 113.0ms | Allocations: 35355)
+Completed 200 OK in 131ms (Views: 117.2ms | ActiveRecord: 0.0ms | Allocations: 39537)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-27 04:14:18 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StronyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering strony/index.html.erb within layouts/application
+  Rendered strony/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 358)
+  Rendered layout layouts/application.html.erb (Duration: 96.2ms | Allocations: 35620)
+Completed 200 OK in 111ms (Views: 101.0ms | ActiveRecord: 0.0ms | Allocations: 39802)
+
+
+Started GET "/oferta" for 127.0.0.1 at 2023-06-27 04:14:32 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/oferta"):
+  
+Started GET "/oferta" for 127.0.0.1 at 2023-06-27 04:17:06 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SesjeController#oferta as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/oferta.html.erb within layouts/application
+  Rendered sesje/oferta.html.erb within layouts/application (Duration: 1.4ms | Allocations: 319)
+  Rendered layout layouts/application.html.erb (Duration: 97.3ms | Allocations: 35492)
+Completed 200 OK in 109ms (Views: 100.7ms | ActiveRecord: 0.0ms | Allocations: 38097)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-27 04:17:09 +0200
+Processing by StronyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering strony/index.html.erb within layouts/application
+  Rendered strony/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 147)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2829)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 3625)
+
+
+Started GET "/oferta" for 127.0.0.1 at 2023-06-27 04:17:10 +0200
+Processing by SesjeController#oferta as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/oferta.html.erb within layouts/application
+  Rendered sesje/oferta.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2396)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 2680)
+
+
+Started GET "/oferta" for 127.0.0.1 at 2023-06-27 04:19:19 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SesjeController#oferta as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/oferta.html.erb within layouts/application
+  Rendered sesje/oferta.html.erb within layouts/application (Duration: 1.9ms | Allocations: 347)
+  Rendered layout layouts/application.html.erb (Duration: 93.5ms | Allocations: 35585)
+Completed 200 OK in 101ms (Views: 96.8ms | ActiveRecord: 0.0ms | Allocations: 38190)
+
+
+Started GET "/logowanie" for 127.0.0.1 at 2023-06-27 04:19:48 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SesjeController#logowanie as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/logowanie.html.erb within layouts/application
+  Rendered sesje/logowanie.html.erb within layouts/application (Duration: 1.4ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 97.5ms | Allocations: 35315)
+Completed 200 OK in 116ms (Views: 102.4ms | ActiveRecord: 0.0ms | Allocations: 39501)
+
+
+Started GET "/oferta" for 127.0.0.1 at 2023-06-27 04:19:51 +0200
+Processing by SesjeController#oferta as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/oferta.html.erb within layouts/application
+  Rendered sesje/oferta.html.erb within layouts/application (Duration: 0.9ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 2725)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 3044)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-27 04:21:07 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StronyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering strony/index.html.erb within layouts/application
+  Rendered strony/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 357)
+  Rendered layout layouts/application.html.erb (Duration: 118.4ms | Allocations: 35324)
+Completed 200 OK in 136ms (Views: 123.9ms | ActiveRecord: 0.0ms | Allocations: 39508)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-27 04:21:09 +0200
+Processing by StronyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering strony/index.html.erb within layouts/application
+  Rendered strony/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 2592)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 2918)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-27 04:22:04 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StronyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering strony/index.html.erb within layouts/application
+  Rendered strony/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 358)
+  Rendered layout layouts/application.html.erb (Duration: 114.3ms | Allocations: 35366)
+Completed 200 OK in 135ms (Views: 123.1ms | ActiveRecord: 0.0ms | Allocations: 39548)
+
+
+Started GET "/Logowanie" for 127.0.0.1 at 2023-06-27 04:22:15 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/Logowanie"):
+  
+Started GET "/Logowanie" for 127.0.0.1 at 2023-06-27 04:22:37 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/Logowanie"):
+  
+Started GET "/" for 127.0.0.1 at 2023-06-27 04:22:46 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StronyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering strony/index.html.erb within layouts/application
+  Rendered strony/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 358)
+  Rendered layout layouts/application.html.erb (Duration: 109.6ms | Allocations: 35533)
+Completed 200 OK in 123ms (Views: 113.2ms | ActiveRecord: 0.0ms | Allocations: 39715)
+
+
+Started GET "/logowanie" for 127.0.0.1 at 2023-06-27 04:22:48 +0200
+Processing by SesjeController#logowanie as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/logowanie.html.erb within layouts/application
+  Rendered sesje/logowanie.html.erb within layouts/application (Duration: 1.1ms | Allocations: 140)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 2831)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 3631)
+
+
+Started GET "/logowanie" for 127.0.0.1 at 2023-06-27 04:24:02 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SesjeController#logowanie as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/logowanie.html.erb within layouts/application
+  Rendered sesje/logowanie.html.erb within layouts/application (Duration: 1.9ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 109.1ms | Allocations: 35686)
+Completed 200 OK in 124ms (Views: 114.5ms | ActiveRecord: 0.0ms | Allocations: 39872)
+
+
+Started GET "/logowanie" for 127.0.0.1 at 2023-06-27 04:24:52 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SesjeController#logowanie as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/logowanie.html.erb within layouts/application
+  Rendered sesje/logowanie.html.erb within layouts/application (Duration: 1.4ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 98.3ms | Allocations: 35736)
+Completed 200 OK in 112ms (Views: 102.4ms | ActiveRecord: 0.0ms | Allocations: 39922)
+
+
+Started GET "/rejestracja" for 127.0.0.1 at 2023-06-27 04:26:48 +0200
+Processing by SesjeController#rejestracja as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/rejestracja.html.erb within layouts/application
+  Rendered sesje/rejestracja.html.erb within layouts/application (Duration: 0.7ms | Allocations: 140)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2714)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 3123)
+
+
+Started GET "/rejestracja" for 127.0.0.1 at 2023-06-27 04:27:40 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SesjeController#rejestracja as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/rejestracja.html.erb within layouts/application
+  Rendered sesje/rejestracja.html.erb within layouts/application (Duration: 3.1ms | Allocations: 357)
+  Rendered layout layouts/application.html.erb (Duration: 124.0ms | Allocations: 35780)
+Completed 200 OK in 142ms (Views: 129.0ms | ActiveRecord: 0.0ms | Allocations: 39966)
+
+
+Started GET "/rejestracja" for 127.0.0.1 at 2023-06-27 04:28:00 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SesjeController#rejestracja as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/rejestracja.html.erb within layouts/application
+  Rendered sesje/rejestracja.html.erb within layouts/application (Duration: 2.2ms | Allocations: 357)
+  Rendered layout layouts/application.html.erb (Duration: 123.7ms | Allocations: 35397)
+Completed 200 OK in 139ms (Views: 128.8ms | ActiveRecord: 0.0ms | Allocations: 39583)
+
+
+Started GET "/rejestracja" for 127.0.0.1 at 2023-06-27 04:31:55 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SesjeController#rejestracja as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/rejestracja.html.erb within layouts/application
+  Rendered sesje/rejestracja.html.erb within layouts/application (Duration: 2.2ms | Allocations: 357)
+  Rendered layout layouts/application.html.erb (Duration: 115.9ms | Allocations: 35570)
+Completed 200 OK in 133ms (Views: 122.5ms | ActiveRecord: 0.0ms | Allocations: 39756)
+
+
+Started GET "/rejestracja" for 127.0.0.1 at 2023-06-27 04:31:57 +0200
+Processing by SesjeController#rejestracja as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/rejestracja.html.erb within layouts/application
+  Rendered sesje/rejestracja.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2583)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 2909)
+
+
+Started GET "/logowanie" for 127.0.0.1 at 2023-06-27 04:33:40 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SesjeController#logowanie as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/logowanie.html.erb within layouts/application
+  Rendered sesje/logowanie.html.erb within layouts/application (Duration: 1.4ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 114.7ms | Allocations: 35368)
+Completed 200 OK in 135ms (Views: 120.5ms | ActiveRecord: 0.0ms | Allocations: 39554)
+
+
+Started GET "/" for 127.0.0.1 at 2023-06-27 04:33:45 +0200
+Processing by StronyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering strony/index.html.erb within layouts/application
+  Rendered strony/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 144)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 2838)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 3634)
+
+
+Started GET "/rejestracja" for 127.0.0.1 at 2023-06-27 04:33:47 +0200
+Processing by SesjeController#rejestracja as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sesje/rejestracja.html.erb within layouts/application
+  Rendered sesje/rejestracja.html.erb within layouts/application (Duration: 0.8ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2526)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 2885)
+
+

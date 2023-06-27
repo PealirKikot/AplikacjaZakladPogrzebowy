@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   root 'strony#index'
   get '/logowanie', to: 'sesje#logowanie'
   get '/rejestracja', to: 'sesje#rejestracja'
+  get '/oferta', to: 'sesje#oferta'
   # Defines the root path route ("/")
   # root "articles#index"
 end
