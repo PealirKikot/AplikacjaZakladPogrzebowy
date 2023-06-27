@@ -1,18 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><center>Zakład Pogrzebowy - Logowanie</title>
+  <title>Zakład Pogrzebowy - Logowanie</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    table {
+      margin-top: 20px;
+    }
+
+    td {
+      text-align: right;
+      padding-right: 10px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      margin-left: 10px;
+    }
+
+    button {
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body>
-  <h1><center>Logowanie</h1>
+  <h1>Logowanie</h1>
   <form action="/sesje/logowanie" method="post">
-    <center><label for="nazwa_uzytkownika">Nazwa użytkownika:</label>
-    <input type="text" id="nazwa_uzytkownika" name="nazwa_uzytkownika" required><br>
-
-    <center><label for="haslo">Hasło:</label>
-    <input type="password" id="haslo" name="haslo" required>
-    <br>
-    <button type="submit">Zaloguj się</button>
+    <table>
+      <tr>
+        <td><label for="nazwa_uzytkownika">Nazwa użytkownika:</label></td>
+        <td><input type="text" id="nazwa_uzytkownika" name="nazwa_uzytkownika" required></td>
+      </tr>
+      <tr>
+        <td><label for="haslo">Hasło:</label></td>
+        <td><input type="password" id="haslo" name="haslo" required></td>
+      </tr>
+    </table>
+    <center><button type="submit">Zaloguj się</button>
   </form>
 </body>
 </html>
