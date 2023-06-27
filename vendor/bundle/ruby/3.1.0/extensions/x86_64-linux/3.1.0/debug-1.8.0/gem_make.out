@@ -1,0 +1,21 @@
+current directory: /home/wojciech/ZakladPogrzebowy/vendor/bundle/ruby/3.1.0/gems/debug-1.8.0/ext/debug
+/usr/bin/ruby -I /usr/share/rubygems extconf.rb
+creating Makefile
+
+current directory: /home/wojciech/ZakladPogrzebowy/vendor/bundle/ruby/3.1.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230627-10398-3hl60z sitelibdir\=./.gem.20230627-10398-3hl60z clean
+rm -f 
+rm -fr debug.so false *.o  *.bak mkmf.log .*.time
+
+current directory: /home/wojciech/ZakladPogrzebowy/vendor/bundle/ruby/3.1.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230627-10398-3hl60z sitelibdir\=./.gem.20230627-10398-3hl60z
+gcc -I. -I/usr/include -I/usr/include/ruby/backward -I/usr/include -I. -DHAVE_RB_ISEQ_PARAMETERS -DHAVE_RB_ISEQ_CODE_LOCATION -DHAVE_RB_ISEQ_TYPE    -fPIC -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -m64 -o debug.o -c debug.c
+gcc -I. -I/usr/include -I/usr/include/ruby/backward -I/usr/include -I. -DHAVE_RB_ISEQ_PARAMETERS -DHAVE_RB_ISEQ_CODE_LOCATION -DHAVE_RB_ISEQ_TYPE    -fPIC -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -m64 -o iseq_collector.o -c iseq_collector.c
+rm -f debug.so
+gcc -shared -o debug.so debug.o iseq_collector.o -L. -L/usr/lib64 -L. -Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1 -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed -Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -Wl,--build-id=sha1   -m64  -lruby  -lm  -lc
+
+current directory: /home/wojciech/ZakladPogrzebowy/vendor/bundle/ruby/3.1.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230627-10398-3hl60z sitelibdir\=./.gem.20230627-10398-3hl60z install
+/usr/bin/mkdir -p . ./.gem.20230627-10398-3hl60z/debug
+exit > .sitearchdir.-.debug.time
+/usr/bin/install -c -m 0755 debug.so ./.gem.20230627-10398-3hl60z/debug
